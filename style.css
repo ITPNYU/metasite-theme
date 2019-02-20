@@ -3,7 +3,7 @@ Theme Name: Metasite
 Theme URI: http://github.com/ITPNYU/metasite-theme
 Author: NYU ITP
 Author URI: http://itp.nyu.edu
-Description: Theme for listing all sites in a Wordpress Network install, based on Wordpress Twenty Fourteen.
+Description: Since 2013. Theme for listing all sites in a Wordpress Network install, based on Wordpress Twenty Fourteen. Last update for accessibility by Yen in 2018
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,11 @@ Text Domain: classes-theme
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
+@import url('../twentyfourteen/style.css');
 */
 
-@import url('../twentyfourteen/style.css');
+html, body {
+    margin-top:-25px; 
+}
+
 
