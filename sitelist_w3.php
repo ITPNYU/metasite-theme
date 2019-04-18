@@ -27,6 +27,12 @@
 <link rel="stylesheet" href="https://tisch.nyu.edu/etc/designs/tisch/global.min.css"/>
 <style>
 
+/* WCAG fix*/
+
+	body:focus {
+	    outline: #000000;
+	}
+
 .page-id-3892 .top_bar {
 	display: none;
 }
@@ -57,6 +63,14 @@
   height: 30px;
   background-image: url('https://itp.nyu.edu/ranch/projects/img/logo_nyu-tisch_white.svg');
 }
+
+.list-group-item.searchable_class:focus-within {
+	/* background: #000000; */
+	/* outline: 1px dotted #212121; */
+ outline: 5px auto -webkit-focus-ring-color;
+
+}
+
 
 		</style>
 </head>
